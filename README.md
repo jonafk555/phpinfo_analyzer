@@ -41,3 +41,6 @@ python analyze_phpinfo.py -u http://your-trusted-server.com/phpinfo.php
 ```
 python analyze_phpinfo.py -u http://your-trusted-server.com/phpinfo.php -t 5
 ```
+- 使用結果：
+![image](https://github.com/user-attachments/assets/49510c20-5744-4450-8757-4f0733b2032a)
+

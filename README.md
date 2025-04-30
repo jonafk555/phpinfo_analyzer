@@ -16,15 +16,15 @@ pip install requests beautifulsoup4
 python analyze_phpinfo.py [選項]
 
 ### 選項：
--h, --help: 顯示幫助訊息並退出。
+`-h`, `--help`: 顯示幫助訊息並退出。
 
--f FILE, --file FILE: 指定包含 phpinfo() HTML 輸出的本地檔案路徑。
+`-f FILE`, `--file FILE`: 指定包含 phpinfo() HTML 輸出的本地檔案路徑。
 
--u URL, --url URL: 指定 phpinfo() 頁面的 URL。警告：請僅用於受信任的 URL！
+`-u URL`, `--url URL`: 指定 phpinfo() 頁面的 URL。警告：請僅用於受信任的 URL！
 
--t TIMEOUT, --timeout TIMEOUT: 抓取 URL 時的超時秒數 (預設: 10)。
+`-t TIMEOUT`, `--timeout TIMEOUT`: 抓取 URL 時的超時秒數 (預設: 10)。
 
-注意： -f 和 -u 選項必須提供其中一個，且只能提供一個。
+注意： `-f` 和 `-u` 選項必須提供其中一個，且只能提供一個。
 
 ### 使用範例
 從本地檔案分析：
